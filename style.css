@@ -1,0 +1,109 @@
+h1  {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+h2  {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  max-width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 1.25rem 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  font-size: smaller;
+  font-style: italic;
+}
+
+.article-container {
+  padding: 20px 40px;
+}
+
+.body * {
+  font-family: 'Playfair Display', serif;
+  font-size: bigger;
+  max-width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 32px;
+}
+
+.section {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+}
+
+.overlay-title {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-left: auto;
+  color: white;
+  font-family: sans-serif;
+  font-size: 70px;
+  text-shadow: 2px 2px #000;
+}
+
+.twitch-graph {
+  max-height: 500px;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  /*float: left;*/
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  font-size: ;
+  padding: 15px;
+  text-align: center;
+}
+
+
+footer {
+  background-color: #e3e3e3;
+  text-align: center;
+  padding: 10px;
+}
